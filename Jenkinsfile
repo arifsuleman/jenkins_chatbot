@@ -30,7 +30,7 @@ pipeline {
                 keepAll: true,
                 reportDir: '',
                 reportFiles: 'chatbot.html',
-                reportName: 'Chatbot'
+                reportName: 'JenkinsGPT'
             ])
         }
     }
