@@ -5,8 +5,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the application...'
-                // Copy the chatbot.html to the workspace
-                bat 'copy chatbot.html %WORKSPACE%'
             }
         }
 
