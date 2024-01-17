@@ -21,7 +21,7 @@ function sendMessage() {
     appendMessage('user', userMessage);
 
     // Send user message to OpenAI API
-    const apiKey = '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';
+    const apiKey = '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';
      const apiUrl = 'https://api.openai.com/v1/engines/gpt-3.5-turbo-instruct/completions';
     
     fetch(apiUrl, {
