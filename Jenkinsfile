@@ -28,7 +28,7 @@ pipeline {
                 allowMissing: false,
                 alwaysLinkToLastBuild: true,
                 keepAll: true,
-                reportDir: '$WORKSPACE',
+                reportDir: '',
                 reportFiles: 'chatbot.html',
                 reportName: 'Chatbot'
             ])
